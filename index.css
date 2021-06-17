@@ -1,0 +1,49 @@
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+.container{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+ box-sizing: border-box;
+ padding: 0px 0px 20px;
+ overflow: hidden;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+table{
+    
+     width: 100%;
+   
+}
+th{ 
+   padding: 20px 20px;
+}
+td{
+    text-align: center;
+}
+.btn-cont{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    
+    text-align: center;
+    width: auto;
+
+}
+.btn-cont .plus{
+border-radius: 40%;
+
+}
+.btn-cont .minus{
+    border-radius: 40%;
+}
